@@ -1,0 +1,28 @@
+[0.238s] Invoking command in '/home/legacy/tutorials_ros2_ws/src/learning_tf2_py': PYTHONPATH=/home/legacy/tutorials_ros2_ws/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/legacy/tutorials_ros2_ws/build/learning_tf2_py/build install --prefix /home/legacy/tutorials_ros2_ws/install/learning_tf2_py --record /home/legacy/tutorials_ros2_ws/build/learning_tf2_py/install.log --single-version-externally-managed
+[0.441s] running egg_info
+[0.441s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[0.441s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[0.441s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[0.442s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[0.442s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[0.480s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.480s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.481s] running build
+[0.481s] running build_py
+[0.481s] copying learning_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/legacy/tutorials_ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.481s] running install
+[0.482s] running install_lib
+[0.484s] copying /home/legacy/tutorials_ros2_ws/build/learning_tf2_py/build/lib/learning_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/legacy/tutorials_ros2_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py
+[0.484s] byte-compiling /home/legacy/tutorials_ros2_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py/fixed_frame_tf2_broadcaster.py to fixed_frame_tf2_broadcaster.cpython-38.pyc
+[0.485s] running install_data
+[0.486s] copying launch/turtle_tf2_fixed_frame_demo.launch.py -> /home/legacy/tutorials_ros2_ws/install/learning_tf2_py/share/learning_tf2_py/launch
+[0.486s] running install_egg_info
+[0.488s] removing '/home/legacy/tutorials_ros2_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py-0.0.0-py3.8.egg-info' (and everything under it)
+[0.488s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/legacy/tutorials_ros2_ws/install/learning_tf2_py/lib/python3.8/site-packages/learning_tf2_py-0.0.0-py3.8.egg-info
+[0.489s] running install_scripts
+[0.508s] Installing fixed_frame_tf2_broadcaster script to /home/legacy/tutorials_ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[0.508s] Installing static_turtle_tf2_broadcaster script to /home/legacy/tutorials_ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[0.508s] Installing turtle_tf2_broadcaster script to /home/legacy/tutorials_ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[0.508s] Installing turtle_tf2_listener script to /home/legacy/tutorials_ros2_ws/install/learning_tf2_py/lib/learning_tf2_py
+[0.509s] writing list of installed files to '/home/legacy/tutorials_ros2_ws/build/learning_tf2_py/install.log'
+[0.528s] Invoked command in '/home/legacy/tutorials_ros2_ws/src/learning_tf2_py' returned '0': PYTHONPATH=/home/legacy/tutorials_ros2_ws/install/learning_tf2_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/legacy/tutorials_ros2_ws/build/learning_tf2_py/build install --prefix /home/legacy/tutorials_ros2_ws/install/learning_tf2_py --record /home/legacy/tutorials_ros2_ws/build/learning_tf2_py/install.log --single-version-externally-managed

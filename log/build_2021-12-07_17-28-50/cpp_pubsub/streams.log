@@ -1,0 +1,82 @@
+[0.010s] Invoking command in '/home/legacy/tutorials_ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/tutorials_ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/legacy/tutorials_ros2_ws/install/cpp_pubsub
+[0.417s] -- The C compiler identification is GNU 9.3.0
+[0.670s] -- The CXX compiler identification is GNU 9.3.0
+[0.677s] -- Check for working C compiler: /usr/bin/cc
+[0.739s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.741s] -- Detecting C compiler ABI info
+[0.803s] -- Detecting C compiler ABI info - done
+[0.814s] -- Detecting C compile features
+[0.814s] -- Detecting C compile features - done
+[0.817s] -- Check for working CXX compiler: /usr/bin/c++
+[0.887s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.888s] -- Detecting CXX compiler ABI info
+[0.958s] -- Detecting CXX compiler ABI info - done
+[0.968s] -- Detecting CXX compile features
+[0.968s] -- Detecting CXX compile features - done
+[0.975s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.999s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.999s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.195s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.255s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.360s] -- Found OpenSSL: /home/linuxbrew/.linuxbrew/Cellar/openssl@1.1/1.1.1k/lib/libcrypto.so (found version "1.1.1k")  
+[1.405s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.483s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.545s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.548s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.549s] -- Looking for pthread.h
+[1.626s] -- Looking for pthread.h - found
+[1.626s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.696s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.696s] -- Looking for pthread_create in pthreads
+[1.746s] -- Looking for pthread_create in pthreads - not found
+[1.746s] -- Looking for pthread_create in pthread
+[1.805s] -- Looking for pthread_create in pthread - found
+[1.806s] -- Found Threads: TRUE  
+[1.968s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.037s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.038s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.038s] -- Configured cppcheck include dirs: 
+[2.039s] -- Configured cppcheck exclude dirs and/or files: 
+[2.039s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.040s] -- Configured cpplint exclude dirs and/or files: 
+[2.040s] -- Added test 'lint_cmake' to check CMake code style
+[2.041s] -- Added test 'uncrustify' to check C / C++ code style
+[2.042s] -- Configured uncrustify additional arguments: 
+[2.042s] -- Added test 'xmllint' to check XML markup files
+[2.045s] -- Configuring done
+[2.054s] -- Generating done
+[2.055s] -- Build files have been written to: /home/legacy/tutorials_ros2_ws/build/cpp_pubsub
+[2.061s] Invoked command in '/home/legacy/tutorials_ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/tutorials_ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/legacy/tutorials_ros2_ws/install/cpp_pubsub
+[2.064s] Invoking command in '/home/legacy/tutorials_ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/tutorials_ros2_ws/build/cpp_pubsub -- -j8 -l8
+[2.097s] [35m[1mScanning dependencies of target listener[0m
+[2.097s] [35m[1mScanning dependencies of target talker[0m
+[2.244s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[2.244s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.869s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[5.043s] [ 75%] Built target talker
+[6.342s] [100%] [32m[1mLinking CXX executable listener[0m
+[6.559s] [100%] Built target listener
+[6.568s] Invoked command in '/home/legacy/tutorials_ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/tutorials_ros2_ws/build/cpp_pubsub -- -j8 -l8
+[6.598s] Invoking command in '/home/legacy/tutorials_ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/tutorials_ros2_ws/build/cpp_pubsub
+[6.605s] -- Install configuration: ""
+[6.605s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[6.606s] -- Set runtime path of "/home/legacy/tutorials_ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[6.606s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[6.608s] -- Set runtime path of "/home/legacy/tutorials_ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[6.608s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[6.608s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[6.608s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[6.608s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[6.608s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[6.609s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[6.609s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[6.609s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[6.609s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[6.609s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[6.609s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[6.609s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[6.609s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[6.609s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[6.609s] -- Installing: /home/legacy/tutorials_ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[6.612s] Invoked command in '/home/legacy/tutorials_ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/tutorials_ros2_ws/build/cpp_pubsub

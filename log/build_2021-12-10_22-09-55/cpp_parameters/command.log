@@ -1,0 +1,1 @@
+Invoking command in '/home/legacy/tutorials_ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/tutorials_ros2_ws/build/cpp_parameters -- -j8 -l8

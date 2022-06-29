@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info
+writing ../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/dependency_links.txt
+writing entry points to ../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/entry_points.txt
+writing requirements to ../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/requires.txt
+writing top-level names to ../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/top_level.txt
+writing manifest file '../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build
+creating /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build/lib
+creating /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build/lib/urdf_tutorial_py
+copying urdf_tutorial_py/__init__.py -> /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build/lib/urdf_tutorial_py
+copying urdf_tutorial_py/state_publisher.py -> /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build/lib/urdf_tutorial_py
+running install
+running install_lib
+creating /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/urdf_tutorial_py
+copying /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build/lib/urdf_tutorial_py/__init__.py -> /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/urdf_tutorial_py
+copying /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build/lib/urdf_tutorial_py/state_publisher.py -> /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/urdf_tutorial_py
+byte-compiling /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/urdf_tutorial_py/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/urdf_tutorial_py/state_publisher.py to state_publisher.cpython-38.pyc
+running install_data
+creating /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/ament_index
+creating /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/ament_index/resource_index
+creating /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/ament_index/resource_index/packages
+copying resource/urdf_tutorial_py -> /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/urdf_tutorial_py
+copying launch/demo.launch.py -> /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/urdf_tutorial_py
+copying urdf/r2d2.urdf.xml -> /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/urdf_tutorial_py
+copying urdf/r2d2.rviz -> /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/urdf_tutorial_py
+running install_egg_info
+Copying ../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info to /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/urdf_tutorial_py-0.0.0-py3.8.egg-info
+running install_scripts
+Installing state_publisher script to /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/urdf_tutorial_py
+writing list of installed files to '/home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/install.log'

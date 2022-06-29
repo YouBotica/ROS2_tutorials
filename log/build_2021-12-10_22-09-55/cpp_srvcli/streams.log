@@ -1,0 +1,4 @@
+[0.033s] Invoking command in '/home/legacy/tutorials_ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/tutorials_ros2_ws/build/cpp_srvcli -- -j8 -l8
+[0.303s] [100%] Built target client
+[0.305s] [100%] Built target server
+[0.314s] Invoked command in '/home/legacy/tutorials_ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/tutorials_ros2_ws/build/cpp_srvcli -- -j8 -l8

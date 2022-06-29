@@ -1,0 +1,2 @@
+Invoking command in '/home/legacy/tutorials_ros2_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/tutorials_ros2_ws/urdf_tutorial -DCMAKE_INSTALL_PREFIX=/home/legacy/tutorials_ros2_ws/install/urdf_tutorial
+Invoked command in '/home/legacy/tutorials_ros2_ws/build/urdf_tutorial' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/tutorials_ros2_ws/urdf_tutorial -DCMAKE_INSTALL_PREFIX=/home/legacy/tutorials_ros2_ws/install/urdf_tutorial

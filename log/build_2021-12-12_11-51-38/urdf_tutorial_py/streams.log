@@ -1,0 +1,34 @@
+[0.250s] Invoking command in '/home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py': PYTHONPATH=/home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py --uninstall --editable --build-directory /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build
+[0.481s] running develop
+[0.624s] Removing /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/urdf-tutorial-py.egg-link (link to .)
+[0.644s] Invoked command in '/home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py' returned '0': PYTHONPATH=/home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py --uninstall --editable --build-directory /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build
+[0.645s] Invoking command in '/home/legacy/tutorials_ros2_ws/src/urdf_tutorial_py': PYTHONPATH=/home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/urdf_tutorial_py build --build-base /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build install --prefix /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py --record /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/install.log --single-version-externally-managed
+[0.865s] running egg_info
+[0.865s] writing ../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/PKG-INFO
+[0.866s] writing dependency_links to ../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/dependency_links.txt
+[0.866s] writing entry points to ../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/entry_points.txt
+[0.866s] writing requirements to ../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/requires.txt
+[0.866s] writing top-level names to ../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/top_level.txt
+[0.901s] reading manifest file '../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/SOURCES.txt'
+[0.902s] writing manifest file '../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info/SOURCES.txt'
+[0.902s] running build
+[0.902s] running build_py
+[0.902s] creating /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build
+[0.902s] creating /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build/lib
+[0.902s] creating /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build/lib/urdf_tutorial_py
+[0.902s] copying urdf_tutorial_py/__init__.py -> /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build/lib/urdf_tutorial_py
+[0.902s] copying urdf_tutorial_py/state_publisher.py -> /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build/lib/urdf_tutorial_py
+[0.902s] running install
+[0.903s] running install_lib
+[0.904s] creating /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/urdf_tutorial_py
+[0.904s] copying /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build/lib/urdf_tutorial_py/__init__.py -> /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/urdf_tutorial_py
+[0.904s] copying /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build/lib/urdf_tutorial_py/state_publisher.py -> /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/urdf_tutorial_py
+[0.905s] byte-compiling /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/urdf_tutorial_py/__init__.py to __init__.cpython-38.pyc
+[0.906s] byte-compiling /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/urdf_tutorial_py/state_publisher.py to state_publisher.cpython-38.pyc
+[0.906s] running install_data
+[0.907s] running install_egg_info
+[0.909s] Copying ../../build/urdf_tutorial_py/urdf_tutorial_py.egg-info to /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/urdf_tutorial_py-0.0.0-py3.8.egg-info
+[0.909s] running install_scripts
+[0.926s] Installing state_publisher script to /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/urdf_tutorial_py
+[0.927s] writing list of installed files to '/home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/install.log'
+[0.945s] Invoked command in '/home/legacy/tutorials_ros2_ws/src/urdf_tutorial_py' returned '0': PYTHONPATH=/home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/urdf_tutorial_py build --build-base /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build install --prefix /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py --record /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/install.log --single-version-externally-managed

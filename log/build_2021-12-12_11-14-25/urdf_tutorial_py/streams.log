@@ -1,0 +1,28 @@
+[0.245s] Invoking command in '/home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py': PYTHONPATH=/home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py --editable --build-directory /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build --no-deps install_data --install-dir /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py
+[0.467s] running develop
+[0.590s] running egg_info
+[0.591s] creating urdf_tutorial_py.egg-info
+[0.591s] writing urdf_tutorial_py.egg-info/PKG-INFO
+[0.591s] writing dependency_links to urdf_tutorial_py.egg-info/dependency_links.txt
+[0.591s] writing entry points to urdf_tutorial_py.egg-info/entry_points.txt
+[0.591s] writing requirements to urdf_tutorial_py.egg-info/requires.txt
+[0.591s] writing top-level names to urdf_tutorial_py.egg-info/top_level.txt
+[0.594s] writing manifest file 'urdf_tutorial_py.egg-info/SOURCES.txt'
+[0.626s] reading manifest file 'urdf_tutorial_py.egg-info/SOURCES.txt'
+[0.627s] writing manifest file 'urdf_tutorial_py.egg-info/SOURCES.txt'
+[0.694s] running build_ext
+[0.695s] Creating /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/site.py
+[0.698s] Creating /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages/urdf-tutorial-py.egg-link (link to .)
+[0.699s] Installing state_publisher script to /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/urdf_tutorial_py
+[0.699s] 
+[0.699s] Installed /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py
+[0.700s] running install_data
+[0.700s] creating /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/ament_index
+[0.700s] creating /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/ament_index/resource_index
+[0.700s] creating /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/ament_index/resource_index/packages
+[0.700s] copying resource/urdf_tutorial_py -> /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/ament_index/resource_index/packages
+[0.700s] copying package.xml -> /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/urdf_tutorial_py
+[0.700s] copying launch/demo.launch.py -> /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/urdf_tutorial_py
+[0.700s] copying urdf/r2d2.urdf.xml -> /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/urdf_tutorial_py
+[0.700s] copying urdf/r2d2.rviz -> /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/share/urdf_tutorial_py
+[0.727s] Invoked command in '/home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py' returned '0': PYTHONPATH=/home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py --editable --build-directory /home/legacy/tutorials_ros2_ws/build/urdf_tutorial_py/build --no-deps install_data --install-dir /home/legacy/tutorials_ros2_ws/install/urdf_tutorial_py

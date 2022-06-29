@@ -1,0 +1,50 @@
+[0.011s] Invoking command in '/home/legacy/tutorials_ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/tutorials_ros2_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp
+[0.428s] -- The C compiler identification is GNU 9.3.0
+[0.653s] -- The CXX compiler identification is GNU 9.3.0
+[0.660s] -- Check for working C compiler: /usr/bin/cc
+[0.721s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.723s] -- Detecting C compiler ABI info
+[0.797s] -- Detecting C compiler ABI info - done
+[0.807s] -- Detecting C compile features
+[0.808s] -- Detecting C compile features - done
+[0.811s] -- Check for working CXX compiler: /usr/bin/c++
+[0.881s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.882s] -- Detecting CXX compiler ABI info
+[0.952s] -- Detecting CXX compiler ABI info - done
+[0.962s] -- Detecting CXX compile features
+[0.963s] -- Detecting CXX compile features - done
+[0.970s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.995s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.995s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.211s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.254s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.262s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.339s] -- Found OpenSSL: /home/linuxbrew/.linuxbrew/Cellar/openssl@1.1/1.1.1k/lib/libcrypto.so (found version "1.1.1k")  
+[1.367s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.538s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.589s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.592s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.593s] -- Looking for pthread.h
+[1.666s] -- Looking for pthread.h - found
+[1.667s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.731s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.731s] -- Looking for pthread_create in pthreads
+[1.780s] -- Looking for pthread_create in pthreads - not found
+[1.780s] -- Looking for pthread_create in pthread
+[1.842s] -- Looking for pthread_create in pthread - found
+[1.843s] -- Found Threads: TRUE  
+[1.994s] -- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)
+[2.007s] -- Found tf2_ros: 0.13.10 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.393s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[2.453s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.516s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[2.516s]   ament_target_dependencies() the first argument must be a valid target name
+[2.517s] Call Stack (most recent call first):
+[2.517s]   CMakeLists.txt:41 (ament_target_dependencies)
+[2.517s] 
+[2.517s] 
+[2.518s] -- Configuring incomplete, errors occurred!
+[2.518s] See also "/home/legacy/tutorials_ros2_ws/build/learning_tf2_cpp/CMakeFiles/CMakeOutput.log".
+[2.518s] See also "/home/legacy/tutorials_ros2_ws/build/learning_tf2_cpp/CMakeFiles/CMakeError.log".
+[2.525s] Invoked command in '/home/legacy/tutorials_ros2_ws/build/learning_tf2_cpp' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/tutorials_ros2_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp

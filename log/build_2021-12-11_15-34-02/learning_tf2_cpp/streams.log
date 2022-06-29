@@ -1,0 +1,61 @@
+[0.011s] Invoking command in '/home/legacy/tutorials_ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/tutorials_ros2_ws/build/learning_tf2_cpp -- -j8 -l8
+[0.036s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.213s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.236s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.347s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.423s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.456s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.457s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.584s] -- Found tf2: 0.13.10 (/opt/ros/foxy/share/tf2/cmake)
+[0.593s] -- Found tf2_ros: 0.13.10 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.900s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[0.951s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.017s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.018s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.018s] -- Configured cppcheck include dirs: 
+[1.018s] -- Configured cppcheck exclude dirs and/or files: 
+[1.020s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.020s] -- Configured cpplint exclude dirs and/or files: 
+[1.020s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.021s] -- Added test 'lint_cmake' to check CMake code style
+[1.021s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.023s] -- Added test 'uncrustify' to check C / C++ code style
+[1.023s] -- Configured uncrustify additional arguments: 
+[1.023s] -- Added test 'xmllint' to check XML markup files
+[1.026s] -- Configuring done
+[1.049s] -- Generating done
+[1.051s] -- Build files have been written to: /home/legacy/tutorials_ros2_ws/build/learning_tf2_cpp
+[1.074s] [35m[1mScanning dependencies of target fixed_frame_tf2_broadcaster[0m
+[1.097s] [ 33%] Built target turtle_tf2_broadcaster
+[1.097s] [ 66%] Built target turtle_tf2_listener
+[1.177s] [ 83%] [32mBuilding CXX object CMakeFiles/fixed_frame_tf2_broadcaster.dir/src/fixed_frame_tf2_broadcaster.cpp.o[0m
+[4.032s] [100%] [32m[1mLinking CXX executable fixed_frame_tf2_broadcaster[0m
+[4.370s] [100%] Built target fixed_frame_tf2_broadcaster
+[4.379s] Invoked command in '/home/legacy/tutorials_ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/tutorials_ros2_ws/build/learning_tf2_cpp -- -j8 -l8
+[4.412s] Invoking command in '/home/legacy/tutorials_ros2_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/tutorials_ros2_ws/build/learning_tf2_cpp
+[4.420s] -- Install configuration: ""
+[4.421s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[4.423s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_listener
+[4.423s] -- Installing: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster
+[4.424s] -- Set runtime path of "/home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/fixed_frame_tf2_broadcaster" to ""
+[4.424s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp//launch
+[4.424s] -- Installing: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp//launch/turtle_tf2_fixed_frame_demo.launch.py
+[4.424s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp//launch/turtle_tf2_demo.launch.py
+[4.425s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[4.425s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[4.425s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[4.425s] -- Installing: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[4.425s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[4.425s] -- Installing: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[4.425s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[4.425s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[4.425s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[4.425s] -- Installing: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[4.425s] -- Installing: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[4.425s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[4.425s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[4.425s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[4.425s] -- Up-to-date: /home/legacy/tutorials_ros2_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[4.427s] Invoked command in '/home/legacy/tutorials_ros2_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/tutorials_ros2_ws/build/learning_tf2_cpp
